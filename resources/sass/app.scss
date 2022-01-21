@@ -1,1 +1,40 @@
 //
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+    }
+
+    li {
+        display: inline-block;
+        text-transform: uppercase;
+        margin: 0 10px;
+
+        a {
+            color: black;
+            text-decoration: none;
+            line-height: 150px;
+            display: inline-block;
+
+            &.active {
+                border-bottom: 5px solid #0282f9;
+                color: #0282f9;
+            }
+        }
+    }
+}
