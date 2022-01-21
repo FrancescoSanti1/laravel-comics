@@ -72,11 +72,11 @@
             <div id="social">
                 <div class="text">follow us</div>
                 <div class="icons">
-                    {{-- <img src="../assets/img/footer-facebook.png" alt="">
-                    <img src="../assets/img/footer-periscope.png" alt="">
-                    <img src="../assets/img/footer-pinterest.png" alt="">
-                    <img src="../assets/img/footer-twitter.png" alt="">
-                    <img src="../assets/img/footer-youtube.png" alt=""> --}}
+                    <img src="./img/footer-facebook.png" alt="">
+                    <img src="./img/footer-periscope.png" alt="">
+                    <img src="./img/footer-pinterest.png" alt="">
+                    <img src="./img/footer-twitter.png" alt="">
+                    <img src="./img/footer-youtube.png" alt="">
                 </div>
             </div>
         </div>

@@ -38,7 +38,6 @@ header li a.active {
 #jumbotron {
   height: 400px;
   overflow-y: hidden;
-  text-align: center;
 }
 
 #jumbotron img {
@@ -138,17 +137,19 @@ header li a.active {
 }
 
 footer #footer-top {
-  background-color: #303030;
-  height: 200px;
+  background-image: url("/img/footer-bg.jpg");
 }
 
 footer #footer-top .container {
   padding: 50px 0;
+  background-image: url("/img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: right center;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: flex-start;
-  height: 300px;
+  height: 400px;
 }
 
 footer #footer-top .container nav {

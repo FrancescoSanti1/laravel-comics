@@ -43,7 +43,6 @@ header {
 #jumbotron {
     height: 400px;
     overflow-y: hidden;
-    text-align: center;
 
     img {
         width: 100%;
@@ -148,20 +147,18 @@ footer {
 
     #footer-top {
 
-        // background-image: url("../assets/img/footer-bg.jpg");
-        background-color: #303030;
-        height: 200px;
+        background-image: url("/img/footer-bg.jpg");
 
         .container {
             padding: 50px 0;
-            // background-image: url("../assets/img/dc-logo-bg.png");
-            // background-repeat: no-repeat;
-            // background-position: right center;
+            background-image: url("/img/dc-logo-bg.png");
+            background-repeat: no-repeat;
+            background-position: right center;
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
             align-content: flex-start;
-            height: 300px;
+            height: 400px;
 
             nav {
                 margin: 0 10px 20px 0;
