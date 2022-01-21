@@ -40,3 +40,7 @@
         </nav>
     </div>
 </header>
+<div id="jumbotron">
+    {{-- <img src="../assets/img/jumbotron.jpg" alt=""> --}}
+    <h2>Jumbo image</h2>
+</div>

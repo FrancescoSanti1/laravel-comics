@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
   
 .container {
@@ -39,13 +40,116 @@ header {
     }
 }
 
+#jumbotron {
+    height: 400px;
+    overflow-y: hidden;
+    text-align: center;
 
+    img {
+        width: 100%;
+    }
+}
+
+#banner {
+        
+    background-color: #0282f9;
+
+    .container {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 200px;
+        
+        div {
+            width: 15%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 70px;
+            }
+            img.smaller {
+                height: 50px;
+            }
+
+            span {
+                text-transform: uppercase;
+                color: white;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+#items {
+
+    padding: 50px 0 20px;
+    background-color: #1c1c1c;
+    color: white;
+    position: relative;
+
+    .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+        .item {
+            width: 15%;
+
+            .img-container {
+                padding-top: 100%;
+                position: relative;
+                overflow-y: hidden;
+
+                img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                }
+            }
+
+            h4 {
+                text-transform: uppercase;
+                font-weight: normal;
+                font-size: 14px;
+                margin: 10px 0 20px;
+            }
+        }
+    }
+
+    .btn {
+        background-color: #0282f9;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        width: 200px;
+        padding: 10px 0;
+        cursor: pointer;
+        font-weight: bold;
+
+        &.series {
+            position: absolute;
+            left: 10%;
+            top: -20px;
+            font-size: 20px;
+        }
+
+        &.more {
+            margin: 30px auto 0;
+            font-size: 14px;
+        }
+    }
+}
 
 footer {
 
     #footer-top {
 
         // background-image: url("../assets/img/footer-bg.jpg");
+        background-color: #303030;
         height: 200px;
 
         .container {
@@ -57,7 +161,7 @@ footer {
             flex-direction: column;
             flex-wrap: wrap;
             align-content: flex-start;
-            height: 400px;
+            height: 300px;
 
             nav {
                 margin: 0 10px 20px 0;

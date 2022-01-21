@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 .container {
@@ -34,7 +35,110 @@ header li a.active {
   color: #0282f9;
 }
 
+#jumbotron {
+  height: 400px;
+  overflow-y: hidden;
+  text-align: center;
+}
+
+#jumbotron img {
+  width: 100%;
+}
+
+#banner {
+  background-color: #0282f9;
+}
+
+#banner .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+
+#banner .container div {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner .container div img {
+  height: 70px;
+}
+
+#banner .container div img.smaller {
+  height: 50px;
+}
+
+#banner .container div span {
+  text-transform: uppercase;
+  color: white;
+  margin-left: 10px;
+}
+
+#items {
+  padding: 50px 0 20px;
+  background-color: #1c1c1c;
+  color: white;
+  position: relative;
+}
+
+#items .container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#items .container .item {
+  width: 15%;
+}
+
+#items .container .item .img-container {
+  padding-top: 100%;
+  position: relative;
+  overflow-y: hidden;
+}
+
+#items .container .item .img-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#items .container .item h4 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  margin: 10px 0 20px;
+}
+
+#items .btn {
+  background-color: #0282f9;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  width: 200px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#items .btn.series {
+  position: absolute;
+  left: 10%;
+  top: -20px;
+  font-size: 20px;
+}
+
+#items .btn.more {
+  margin: 30px auto 0;
+  font-size: 14px;
+}
+
 footer #footer-top {
+  background-color: #303030;
   height: 200px;
 }
 
@@ -44,7 +148,7 @@ footer #footer-top .container {
   flex-direction: column;
   flex-wrap: wrap;
   align-content: flex-start;
-  height: 400px;
+  height: 300px;
 }
 
 footer #footer-top .container nav {

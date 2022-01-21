@@ -27,6 +27,43 @@
                     </li>
                 </ul>
             </nav>
+            <nav>
+                <h3>shop</h3>
+                <ul>
+                    <li>
+                        <a href="">Shop DC</a>
+                    </li>
+                    <li>
+                        <a href="">Shop DC Collectibles</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav>
+                <h3>dc</h3>
+                <ul>
+                    <li>
+                        <a href="">Terms of use</a>
+                    </li>
+                    <li>
+                        <a href="">Privacy policy</a>
+                    </li>
+                    <li>
+                        <a href="">Ad Choices</a>
+                    </li>
+                    <li>
+                        <a href="">Advertising</a>
+                    </li>
+                    <li>
+                        <a href="">Jobs</a>
+                    </li>
+                    <li>
+                        <a href="">Subscription</a>
+                    </li>
+                    <li>
+                        <a href="">Ratings</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </div>
     <div id="footer-bottom">
