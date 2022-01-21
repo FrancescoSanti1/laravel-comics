@@ -38,3 +38,89 @@ header {
         }
     }
 }
+
+
+
+footer {
+
+    #footer-top {
+
+        // background-image: url("../assets/img/footer-bg.jpg");
+        height: 200px;
+
+        .container {
+            padding: 50px 0;
+            // background-image: url("../assets/img/dc-logo-bg.png");
+            // background-repeat: no-repeat;
+            // background-position: right center;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            height: 400px;
+
+            nav {
+                margin: 0 10px 20px 0;
+                width: 150px;
+
+                h3 {
+                    text-transform: uppercase;
+                    color: white;
+                    margin-bottom: 5px;
+                }
+
+                ul {
+                    list-style-type: none;
+
+                    a {
+                        font-size: 12px;
+                        color: grey;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    #footer-bottom {
+        background-color: #303030;
+
+        .container {
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .btn {
+                color: white;
+                text-transform: uppercase;
+                padding: 10px;
+                border: 2px solid #0282f9;
+            }
+
+            #social {
+
+                display: flex;
+                align-items: center;
+
+                .text {
+                    color: #0282f9;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    margin-right: 10px;
+                }
+
+                .icons {
+
+                    img {
+                        height: 30px;
+                        margin: 0 10px;
+                    }          
+                }
+            }
+
+
+        }
+    }
+    
+}
