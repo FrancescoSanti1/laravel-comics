@@ -1,7 +1,9 @@
 <header>
     <div class="container">
         <div id="logo">
-            <img src="/storage/img/dc-logo.png" alt="logo dc comics">
+            <a href="{{route('home')}}">
+                <img src="/storage/img/dc-logo.png" alt="logo dc comics">
+            </a>
         </div>
         <nav>
             <ul>

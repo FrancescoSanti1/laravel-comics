@@ -9,7 +9,7 @@
                 <div class="img-container">
                     <img src="{{$item['thumb']}}" alt="{{$item['series']}}">
                 </div>
-                <h4>{{$item['series']}}</h4>
+                <h4><a href="{{route('details')}}">{{$item['series']}}</a></h4>
             </div>
         @endforeach
     </div>

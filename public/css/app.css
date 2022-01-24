@@ -113,6 +113,10 @@ header li a.active {
   margin: 10px 0 20px;
 }
 
+#items .container .item h4 a {
+  color: white;
+}
+
 #items .btn {
   background-color: #0282f9;
   color: white;
