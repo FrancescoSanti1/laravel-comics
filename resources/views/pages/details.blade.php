@@ -14,7 +14,13 @@
             <div class="availability">check availability</div>
             <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident omnis expedita harum, quia alias voluptatum asperiores veritatis, earum tenetur iste, voluptates inventore itaque praesentium nostrum? Excepturi doloribus mollitia consequatur ad natus iste ea dolorum itaque distinctio magnam eaque officia voluptatum animi, repellat voluptatem repellendus quis enim. Corporis recusandae distinctio nesciunt repellat dicta in blanditiis, hic numquam debitis cum eveniet quidem accusantium? Rem consequuntur vitae vero obcaecati velit aut rerum ea corrupti temporibus minus, amet modi eius ut ad quibusdam blanditiis ratione veritatis, harum cumque doloremque nemo repellendus numquam? Consequuntur vero perferendis quaerat, exercitationem nemo illum corrupti laudantium! Nemo, veritatis!</div>
         </div>
-        <div class="adv">advertisement</div>
+        <div class="adv">
+            <h3>advertisement</h3>
+            <div class="adv-img">
+                <div>unleash heroic rewards</div>
+                <div class="btn">apply now</div>
+            </div>
+        </div>
     </div>
 </div>
 <div id="details-bottom">

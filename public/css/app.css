@@ -162,22 +162,50 @@ header li a.active {
 #details-top .container {
   width: 60%;
   display: flex;
+  justify-content: space-between;
 }
 
 #details-top .container .description {
-  width: 70%;
+  width: 65%;
 }
 
 #details-top .container .description .title {
   text-transform: uppercase;
   color: #0282f9;
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 #details-top .container .description .availability {
   min-height: 40px;
   background-color: #30a030;
   color: white;
+  margin-bottom: 20px;
+}
+
+#details-top .container .description .text {
+  line-height: 20px;
+}
+
+#details-top .container .adv {
+  width: 30%;
+}
+
+#details-top .container .adv .adv-img {
+  background-color: #0282f9;
+  padding: 20px;
+  height: 300px;
+  position: relative;
+}
+
+#details-top .container .adv .adv-img .btn {
+  display: inline-block;
+  background-color: yellow;
+  border: lightgray 1px solid;
+  padding: 20px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }
 
 #details-bottom {

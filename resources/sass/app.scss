@@ -169,20 +169,48 @@ header {
     .container {
         width: 60%;
         display: flex;
+        justify-content: space-between;
 
         .description {
-            width: 70%;
+            width: 65%;
 
             .title {
                 text-transform: uppercase;
                 color: #0282f9;
                 font-size: 20px;
+                margin-bottom: 20px;
             }
 
             .availability {
                 min-height: 40px;
                 background-color: rgb(48, 160, 48);
                 color: white;
+                margin-bottom: 20px;
+            }
+
+            .text {
+                line-height: 20px;
+            }
+        }
+
+        .adv {
+            width: 30%;
+
+            .adv-img {
+                background-color: #0282f9;
+                padding: 20px;
+                height: 300px;
+                position: relative;
+                
+                .btn {
+                    display: inline-block;
+                    background-color: yellow;
+                    border: lightgray 1px solid;
+                    padding: 20px;
+                    position: absolute;
+                    bottom: 20px;
+                    left: 20px;
+                }
             }
         }
     }
