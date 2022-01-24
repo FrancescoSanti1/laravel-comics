@@ -1,69 +1,18 @@
 <footer>
     <div id="footer-top">
         <div class="container">
-            <nav>
-                <h3>dc comics</h3>
-                <ul>
-                    <li>
-                        <a href="">Characters</a>
-                    </li>
-                    <li>
-                        <a href="">Comics</a>
-                    </li>
-                    <li>
-                        <a href="">Movies</a>
-                    </li>
-                    <li>
-                        <a href="">TV</a>
-                    </li>
-                    <li>
-                        <a href="">Games</a>
-                    </li>
-                    <li>
-                        <a href="">Videos</a>
-                    </li>
-                    <li>
-                        <a href="">News</a>
-                    </li>
-                </ul>
-            </nav>
-            <nav>
-                <h3>shop</h3>
-                <ul>
-                    <li>
-                        <a href="">Shop DC</a>
-                    </li>
-                    <li>
-                        <a href="">Shop DC Collectibles</a>
-                    </li>
-                </ul>
-            </nav>
-            <nav>
-                <h3>dc</h3>
-                <ul>
-                    <li>
-                        <a href="">Terms of use</a>
-                    </li>
-                    <li>
-                        <a href="">Privacy policy</a>
-                    </li>
-                    <li>
-                        <a href="">Ad Choices</a>
-                    </li>
-                    <li>
-                        <a href="">Advertising</a>
-                    </li>
-                    <li>
-                        <a href="">Jobs</a>
-                    </li>
-                    <li>
-                        <a href="">Subscription</a>
-                    </li>
-                    <li>
-                        <a href="">Ratings</a>
-                    </li>
-                </ul>
-            </nav>
+            @foreach ($footerLists as $list)
+                <nav>
+                    <h3>{{$list['listName']}}</h3>
+                    <ul>
+                        @foreach ($list['listItems'] as $item)
+                            <li>
+                                <a href="{{$item['path']}}">{{$item['text']}}</a>
+                            </li>
+                        @endforeach
+                    </ul>
+                </nav>
+            @endforeach
         </div>
     </div>
     <div id="footer-bottom">

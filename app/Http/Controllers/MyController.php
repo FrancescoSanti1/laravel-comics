@@ -6,6 +6,118 @@ use Illuminate\Http\Request;
 
 class MyController extends Controller
 {
+
+    private $footerLists = [
+        [
+            "listName" => "dc comics",
+            "listItems" => [
+                [
+                    "text" => "Characters",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "Comics",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "Movies",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "TV",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "Games",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "Videos",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "News",
+                    "path" => "#"
+                ]
+            ]
+        ],
+        [
+            "listName" => "shop",
+            "listItems" => [
+                [
+                    "text" => "Shop DC",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "Shop DC Collectibles",
+                    "path" => "#"
+                ]
+            ]
+        ],
+        [
+            "listName" => "dc",
+            "listItems" => [
+                [
+                    "text" => "Terms of use",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "Privacy policy",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "Ad Choices",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "Advertising",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "Jobs",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "Subscription",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "Ratings",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "Shop Help",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "Contact Us",
+                    "path" => "#"
+                ]
+            ]
+        ],
+        [
+            "listName" => "sites",
+            "listItems" => [
+                [
+                    "text" => "DC",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "MAD Magazine",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "DC Universe",
+                    "path" => "#"
+                ],
+                [
+                    "text" => "DC Power Visa",
+                    "path" => "#"
+                ]
+            ]
+        ]
+    ];
+
     public function home() {
         $itemsList = [
             [
@@ -81,10 +193,12 @@ class MyController extends Controller
                 "type" => "graphic novel"
             ]
         ];
-        return view('pages.home', compact('itemsList'));
+        $footerLists = $this -> footerLists;
+        return view('pages.home', compact('itemsList', 'footerLists'));
     }
 
     public function details() {
-        return view('pages.details');
+        $footerLists = $this -> footerLists;
+        return view('pages.details', compact('footerLists'));
     }
 }
