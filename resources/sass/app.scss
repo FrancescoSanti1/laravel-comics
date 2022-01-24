@@ -147,6 +147,22 @@ header {
     }
 }
 
+.stripe {
+    background-color: #0282f9;
+    height: 50px;
+
+    .container {
+        width: 60%;
+
+        img {
+            width: 200px;
+            position: relative;
+            top: -270px;
+        }
+    }
+
+}
+
 #details-top {
     padding: 50px 0;
 
@@ -156,6 +172,12 @@ header {
 
         .description {
             width: 70%;
+
+            .title {
+                text-transform: uppercase;
+                color: #0282f9;
+                font-size: 20px;
+            }
 
             .availability {
                 min-height: 40px;
@@ -173,6 +195,34 @@ header {
     .container {
         width: 60%;
         display: flex;
+        justify-content: space-between;
+
+        .spec {
+            width: 47%;
+
+            .title {
+                color: #0282f9;
+                font-weight: bold;
+            }
+        }
+
+        .row {
+            display: flex;
+            padding: 20px 0;
+            border-top: lightgray solid 1px;
+            border-bottom: lightgray solid 1px;
+
+            .title {
+                width: 30%;
+                color: gray;
+                font-weight: bold;
+            }
+
+            .text {
+                width: 70%;
+                color: #0282f9;
+            }
+        }
     }
 }
 

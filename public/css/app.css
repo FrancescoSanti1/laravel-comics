@@ -140,6 +140,21 @@ header li a.active {
   font-size: 14px;
 }
 
+.stripe {
+  background-color: #0282f9;
+  height: 50px;
+}
+
+.stripe .container {
+  width: 60%;
+}
+
+.stripe .container img {
+  width: 200px;
+  position: relative;
+  top: -270px;
+}
+
 #details-top {
   padding: 50px 0;
 }
@@ -151,6 +166,12 @@ header li a.active {
 
 #details-top .container .description {
   width: 70%;
+}
+
+#details-top .container .description .title {
+  text-transform: uppercase;
+  color: #0282f9;
+  font-size: 20px;
 }
 
 #details-top .container .description .availability {
@@ -167,6 +188,34 @@ header li a.active {
 #details-bottom .container {
   width: 60%;
   display: flex;
+  justify-content: space-between;
+}
+
+#details-bottom .container .spec {
+  width: 47%;
+}
+
+#details-bottom .container .spec .title {
+  color: #0282f9;
+  font-weight: bold;
+}
+
+#details-bottom .container .row {
+  display: flex;
+  padding: 20px 0;
+  border-top: lightgray solid 1px;
+  border-bottom: lightgray solid 1px;
+}
+
+#details-bottom .container .row .title {
+  width: 30%;
+  color: gray;
+  font-weight: bold;
+}
+
+#details-bottom .container .row .text {
+  width: 70%;
+  color: #0282f9;
 }
 
 footer #footer-top {
