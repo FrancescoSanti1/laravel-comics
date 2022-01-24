@@ -143,15 +143,44 @@ header {
     }
 }
 
+#details-top {
+    padding: 50px 0;
+
+    .container {
+        width: 60%;
+        display: flex;
+
+        .description {
+            width: 70%;
+
+            .availability {
+                min-height: 40px;
+                background-color: rgb(48, 160, 48);
+                color: white;
+            }
+        }
+    }
+}
+
+#details-bottom {
+    padding: 50px 0;
+    background-color: whitesmoke;
+
+    .container {
+        width: 60%;
+        display: flex;
+    }
+}
+
 footer {
 
     #footer-top {
 
-        background-image: url("/img/footer-bg.jpg");
+        background-image: url("/storage/img/footer-bg.jpg");
 
         .container {
             padding: 50px 0;
-            background-image: url("/img/dc-logo-bg.png");
+            background-image: url("/storage/img/dc-logo-bg.png");
             background-repeat: no-repeat;
             background-position: right center;
             display: flex;

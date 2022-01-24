@@ -136,13 +136,42 @@ header li a.active {
   font-size: 14px;
 }
 
+#details-top {
+  padding: 50px 0;
+}
+
+#details-top .container {
+  width: 60%;
+  display: flex;
+}
+
+#details-top .container .description {
+  width: 70%;
+}
+
+#details-top .container .description .availability {
+  min-height: 40px;
+  background-color: #30a030;
+  color: white;
+}
+
+#details-bottom {
+  padding: 50px 0;
+  background-color: whitesmoke;
+}
+
+#details-bottom .container {
+  width: 60%;
+  display: flex;
+}
+
 footer #footer-top {
-  background-image: url("/img/footer-bg.jpg");
+  background-image: url("/storage/img/footer-bg.jpg");
 }
 
 footer #footer-top .container {
   padding: 50px 0;
-  background-image: url("/img/dc-logo-bg.png");
+  background-image: url("/storage/img/dc-logo-bg.png");
   background-repeat: no-repeat;
   background-position: right center;
   display: flex;

@@ -83,23 +83,23 @@
 <section id="banner">
     <div class="container">
         <div>
-            {{-- <img src="../assets/img/buy-comics-digital-comics.png" alt=""> --}}
+            <img src="storage/img/buy-comics-digital-comics.png" alt="">
             <span>digital comics</span>
         </div>
         <div>
-            {{-- <img src="../assets/img/buy-comics-merchandise.png" alt=""> --}}
+            <img src="storage/img/buy-comics-merchandise.png" alt="">
             <span>dc merchandise</span>
         </div>
         <div>
-            {{-- <img src="../assets/img/buy-comics-subscriptions.png" alt=""> --}}
+            <img src="storage/img/buy-comics-subscriptions.png" alt="">
             <span>subscription</span>
         </div>
         <div>
-            {{-- <img src="../assets/img/buy-comics-shop-locator.png" alt=""> --}}
+            <img src="storage/img/buy-comics-shop-locator.png" alt="">
             <span>comic shop locator</span>
         </div>
         <div>
-            {{-- <img class="smaller" src="../assets/img/buy-dc-power-visa.svg" alt=""> --}}
+            <img class="smaller" src="storage/img/buy-dc-power-visa.svg" alt="">
             <span>dc power visa</span>
         </div>
     </div>

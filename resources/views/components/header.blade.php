@@ -1,7 +1,7 @@
 <header>
     <div class="container">
         <div id="logo">
-            <img src="./img/dc-logo.png" alt="logo dc comics">
+            <img src="/storage/img/dc-logo.png" alt="logo dc comics">
         </div>
         <nav>
             <ul>
@@ -40,5 +40,5 @@
     </div>
 </header>
 <div id="jumbotron">
-    <img src="./img/jumbotron.jpg" alt="">
+    <img src="/storage/img/jumbotron.jpg" alt="">
 </div>
