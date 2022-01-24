@@ -4,79 +4,16 @@
     <div class="btn series">current series</div>
 
     <div class="container">
-        <div class="item">
-            <div class="img-container">
-                {{-- <img src="" alt=""> --}}
+        @foreach ($itemsList as $item)
+            <div class="item">
+                <div class="img-container">
+                    <img src="{{$item['thumb']}}" alt="{{$item['series']}}">
+                </div>
+                <h4>{{$item['series']}}</h4>
             </div>
-            <h4>titolo fumetto</h4>
-        </div>
-        <div class="item">
-            <div class="img-container">
-                {{-- <img src="" alt=""> --}}
-            </div>
-            <h4>titolo fumetto</h4>
-        </div>
-        <div class="item">
-            <div class="img-container">
-                {{-- <img src="" alt=""> --}}
-            </div>
-            <h4>titolo fumetto</h4>
-        </div>
-        <div class="item">
-            <div class="img-container">
-                {{-- <img src="" alt=""> --}}
-            </div>
-            <h4>titolo fumetto</h4>
-        </div>
-        <div class="item">
-            <div class="img-container">
-                {{-- <img src="" alt=""> --}}
-            </div>
-            <h4>titolo fumetto</h4>
-        </div>
-        <div class="item">
-            <div class="img-container">
-                {{-- <img src="" alt=""> --}}
-            </div>
-            <h4>titolo fumetto</h4>
-        </div>
-        <div class="item">
-            <div class="img-container">
-                {{-- <img src="" alt=""> --}}
-            </div>
-            <h4>titolo fumetto</h4>
-        </div>
-        <div class="item">
-            <div class="img-container">
-                {{-- <img src="" alt=""> --}}
-            </div>
-            <h4>titolo fumetto</h4>
-        </div>
-        <div class="item">
-            <div class="img-container">
-                {{-- <img src="" alt=""> --}}
-            </div>
-            <h4>titolo fumetto</h4>
-        </div>
-        <div class="item">
-            <div class="img-container">
-                {{-- <img src="" alt=""> --}}
-            </div>
-            <h4>titolo fumetto</h4>
-        </div>
-        <div class="item">
-            <div class="img-container">
-                {{-- <img src="" alt=""> --}}
-            </div>
-            <h4>titolo fumetto</h4>
-        </div>
-        <div class="item">
-            <div class="img-container">
-                {{-- <img src="" alt=""> --}}
-            </div>
-            <h4>titolo fumetto</h4>
-        </div>
+        @endforeach
     </div>
+
     <div class="btn more">load more</div>
 </section>
 
